@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>俄罗斯方块</title>
+  <style>
+    #root {
+      display: flex;
+      justify-content: center;
+    }
+
+    .panel {
+      background-color: #000;
+      position: relative;
+    }
+
+    .tip {
+      
+    }
+
+    .tip .operation {
+      margin-left: 30px;
+      margin-top: 20px;
+      font-size: 12px;
+
+    }
+
+
+
+    .next {
+      position: relative;
+
+    }
+
+    .score {
+      font-size: 4em;
+      padding-top: 30px;
+      font-weight: bold;
+      text-align: center;
+      color: #f40;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root">
+    <div class="panel">
+      <div class="msg"></div>
+    </div>
+    <div class="tip">
+      <div class="next"></div>
+      <div class="score"></div>
+      <div class="operation">
+        <p>使用键盘进行游戏：</p>
+        <p>↑：旋转</p>
+        <p>↓：向下</p>
+        <p>←：向左</p>
+        <p>→：向右</p>
+        <p>空格：开始/暂停</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

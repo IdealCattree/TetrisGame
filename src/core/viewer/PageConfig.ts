@@ -1,0 +1,6 @@
+export default {
+  squareDom: {
+    width: 30,
+    height: 30,
+  },
+};
